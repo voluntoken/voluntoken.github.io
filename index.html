@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<title>voluntoken</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+		height: 100%;
+		line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+		background-position: center;
+		background-size: contain;
+		background-repeat:no-repeat;
+		background-image: url("images/logo.PNG");
+		min-height: 100%;
+}
+.w3-bar .w3-button {
+		padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+	<div class="w3-bar w3-white w3-card" id="myNavbar">
+		<a href="#home" class="w3-bar-item w3-button w3-wide">voluntoken</a>
+		<!-- Right-sided navbar links -->
+		<div class="w3-right w3-hide-small">
+			<a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+			<a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+			<a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+		</div>
+		<!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+		<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+	<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+	<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+	<a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+	<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+
+</header>
+
+<!-- <hr> -->
+
+<!-- About Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="about">
+	<h3 class="w3-center">ABOUT</h3>
+	<p class="w3-center w3-large">We want to make being better easier </p>
+	<div class="w3-row-padding w3-center" style="margin-top:64px">
+		<div class="w3-half">
+			<i class="fa fa-heart  w3-margin-bottom w3-jumbo w3-center"></i>
+			<p class="w3-large">Why?</p>
+			<p>Building a more compassionate economic system</p>
+		</div>
+		<div class="w3-half">
+			<i class="fa fa-connectdevelop w3-margin-bottom w3-jumbo"></i>
+			<p class="w3-large">How?</p>
+			<p>Engaging local communites and valuing social good</p>
+		</div>
+	</div>
+	<div class="w3-row-padding w3-center" style="margin-top:64px">
+		<div >
+			<i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
+			<p class="w3-large">What?</p>
+			<p style="margin-left: 230px; margin-right: 230px;">The Voluntoken, a platform and cryptoasset that makes it easy to sign-up for volunteering opportunities and rewards volunteers with tokens exchangeable for discounts at local businesses</p>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+	<h3 class="w3-center">THE TEAM</h3>
+
+	<div class="w3-row-padding " style="margin-top:64px">
+	
+	
+	
+		<div class="w3-col l4 m6 w3-margin-bottom">
+			<div class="w3-card">
+				<img src="images/davi.jpg" style="width:100%">
+				<div class="w3-container">
+					<h3>Davi Lemos</h3>
+					<p class="w3-opacity">Project Lead</p>
+					<p>Davi leads the Voluntoken team in all it's endeavors, strategizing the path ahead and facilitating the work of all members as we strive to redefine the volunteering and local-economies ecosystem. In the past Davi has been an AIESEC Local Committee President for two terms, co-lead the Brazil Club at Yale, head-organized a TEDx event, and started his own samba group. He is also the co-founder of the Blockchain Undergraduate Collective at Yale and is a current Board Member at the Yale Blockchain Initiative.</p>
+<!-- 					<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
+				</div>
+			</div>
+		</div>
+		<div class="w3-col l4 m6 w3-margin-bottom">
+			<div class="w3-card">
+				<img src="images/fernando.jpg" style="width:100%">
+				<div class="w3-container">
+					<h3>Fernando Alonso Bilfinger</h3>
+					<p class="w3-opacity">Outreach Leader</p>
+					<p>I am first-year student double majoring in Economics and Statistics & Data Science at Yale University and currently work as the Outreach and Partnerships Leader at VolunToken. My interest in economics along with community service experiences as the founder for educational programs and websites in Brazilian NGOs and as the current Dwight Hall International Network Coordinator for social service and justice serve VolunToken with customer insights and important connections with local businesses and NGOs.</p>
+<!-- 					<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
+				</div>
+			</div>
+		</div>
+		<div class="w3-col l4 m6 w3-margin-bottom">
+			<div class="w3-card">
+				<img src="images/jay.png" style="width:100%">
+				<div class="w3-container">
+					<h3>Jay Majumdar</h3>
+					<p class="w3-opacity">Business & Finance</p>
+					<p>Jay is leading business development at VolunToken. He is a fourth year Economics & East Asian Studies Major at Yale College. With over a year of work experience in blockchain and FinTech in China, Jay is a co-founder of the Blockchain Undergraduate Collective and a member of the executive team at the Yale Blockchain Initiative. He is an avid meditator and loves Chinese culture and food.</p>
+<!-- 					<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="w3-row-padding " style="margin-top:64px">
+	
+	
+	
+		<div class="w3-col l4 m6 w3-margin-bottom">
+			<div class="w3-card">
+				<img src="images/shan.jpeg" style="width:100%">
+				<div class="w3-container">
+					<h3>Shantanu Jha</h3>
+					<p class="w3-opacity">Chief Technology Officer</p>
+					<p>As the head of software development of Voluntoken, Shantanu leverages his quantitative background to proudly lead a team of developers and innovators. His passion to solve the interesting and relevant problems of society has driven him to do everything from intern at non-profits that promote girls' education in developing nations to research the counterintuitive and underlying elegance of the universe as a Quantum Computing researcher. Outside of work, Shantanu enjoys woodworking, playing sports with friends, and learning riddles.</p>
+<!-- 					<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
+				</div>
+			</div>
+		</div>
+		<div class="w3-col l4 m6 w3-margin-bottom">
+			<div class="w3-card">
+				<img src="images/daniel.jpg" style="width:100%">
+				<div class="w3-container">
+					<h3>Daniel Kim</h3>
+					<p class="w3-opacity">Head of Blockchain Development</p>
+					<p>Daniel heads blockchain development at VolunToken, and is currently learning Solidity and other related technologies. He shares the goals and ideals of the rest of the team, and joined VolunToken because he is seeking to increase volunteering efforts in local communities. Other fields that Daniel is currently working on include bioinformatics, web development, and data science.</p>
+<!-- 					<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
+				</div>
+			</div>
+		</div>
+		<div class="w3-col l4 m6 w3-margin-bottom">
+			<div class="w3-card">
+				<img src="images/jay.png" style="width:100%">
+				<div class="w3-container">
+					<h3>Jay Majumdar</h3>
+					<p class="w3-opacity">Business & Finance</p>
+					<p>Jay is leading business development at VolunToken. He is a fourth year Economics & East Asian Studies Major at Yale College. With over a year of work experience in blockchain and FinTech in China, Jay is a co-founder of the Blockchain Undergraduate Collective and a member of the executive team at the Yale Blockchain Initiative. He is an avid meditator and loves Chinese culture and food.</p>
+<!-- 					<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+	<h3 class="w3-center">CONTACT</h3>
+	<p class="w3-center w3-large">Let us know what you think at contact@volentoken.com</p>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-white w3-padding-64">
+	<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+function w3_open() {
+		if (mySidebar.style.display === 'block') {
+				mySidebar.style.display = 'none';
+		} else {
+				mySidebar.style.display = 'block';
+		}
+}
+// Close the sidebar with the close button
+function w3_close() {
+		mySidebar.style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
