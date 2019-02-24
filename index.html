@@ -22,11 +22,18 @@
 
 
 
-title, h1, a {font-family: "Swatch","Raleway", sans-serif}
-body,h2,h3,h4,h5,h6 {font-family: "Century","Swatch","Raleway", sans-serif}
+title, h1, a {font-family: "Swatch","Raleway", sans-serif; color: #8085D0;}
+body,h2,h3,h4,h5,h6 {font-family: "Century","Swatch","Raleway", sans-serif; color: #8085D0;}
 
 /*end font stuff*/
 
+p{
+	color: #8085D0;
+}
+
+.fa{
+	color: #8085D0;
+}
 
 body, html {
 		height: 100%;
@@ -85,20 +92,29 @@ button {
 </nav>
 
 <header class="w3-container" id="ho</script>me">
-	
-	<div class="w3-twothird">
-		<img src="images/logo.PNG" style="width: 100%; height: 100%; padding-top: 50px;">
+	<div class="w3-row w3-center">
+		<div class="w3-half">
+			<img src="images/logo-circ.png" style="width: 75%; height: 75%; padding-top: 100px; position: center; padding-left: 30px;">
+		</div>
+		
+		<div class="w3-rest" style="padding-top: 140px; padding-right: 10%;">
+			<p class="w3-large" style="color: #8085D0;">Interested in Signing-up for Beta?</p>
+
+			<form action="https://formspree.io/voluntoken@gmail.com" method="POST" id="form1">
+				<div style="color: #8085D0">
+				NAME: <input type="text" name="fname"><br><br>
+				EMAIL: <input type="text" name="lname"><br>
+				</div>
+				 <button type="submit" class="signupbtn" style="width:50%; background-color: #8085D0;" >Sign Up</button>
+			</form>
+
+		</div>
 	</div>
 	
-	<div class="w3-rest" style="padding-top: 140px; padding-right: 10%;">
-		<p class="w3-large">Interested in Signing-up for Beta?</p>
-
-		<form action="https://formspree.io/voluntoken@gmail.com" method="POST" id="form1">
-			NAME: <input type="text" name="fname"><br><br>
-			EMAIL: <input type="text" name="lname"><br>
-			 <button type="submit" class="signupbtn">Sign Up</button>
-		</form>
-
+	<div class="w3-row w3-center">
+		<div>
+		<img src="images/logo-title.png" style="width: 80%; height: 80%; padding-top: 10px; padding-bottom: 10px;">
+		</div>
 	</div>
 	
 
@@ -257,9 +273,16 @@ button {
 
 
 <!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+<div class="w3-container " style="padding:128px 16px" id="contact">
 	<h3 class="w3-center">CONTACT</h3>
-	<p class="w3-center w3-large">Let us know what you think at voluntoken@gmail.com</p>
+	<p class="w3-center w3-large">Let us know what you think at <b> voluntoken@gmail.com </b> </p>
+	
+	<div class="w3-xlarge w3-section w3-center">
+		<i class="fa fa-facebook-official w3-hover-opacity"></i>
+		<i class="fa fa-instagram w3-hover-opacity"></i>
+		<i class="fa fa-linkedin w3-hover-opacity"></i>
+	</div>
+	
 </div>
 
 
